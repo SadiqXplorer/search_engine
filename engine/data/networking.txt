@@ -1,0 +1,5 @@
+Computer Networking connects system nodes and devices across local area networks (LAN) and the internet.
+The TCP/IP protocol stack manages data transmission, packet routing, IP addressing, and reliable connection handling.
+Network routers and switches direct data packets across subnet addresses using optimized routing table lookups.
+Web servers deliver HTML pages, API responses, JSON data, and web assets using HTTP and HTTPS protocols.
+Distributed search systems use network protocols to coordinate index distribution and parallel query processing.

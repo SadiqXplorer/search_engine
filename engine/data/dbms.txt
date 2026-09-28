@@ -1,0 +1,5 @@
+A Database Management System (DBMS) organizes data storage, querying, indexing, and transactional processing.
+Relational database management systems use SQL queries, primary keys, foreign keys, and indexes to access tables efficiently.
+An inverted index is a database data structure mapping words and terms to document locations and posting lists.
+B-Tree and Hash indexes speed up search queries, reducing time complexity from linear scan to logarithmic lookup.
+ACID properties ensure transaction reliability, durability, consistency, and isolation in modern database architecture.

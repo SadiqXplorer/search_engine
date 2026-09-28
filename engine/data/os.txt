@@ -1,0 +1,5 @@
+An Operating System (OS) manages computer hardware resources, CPU execution scheduling, memory allocation, and file systems.
+Processes and threads run concurrently in OS space, utilizing mutex locks and semaphores for synchronization.
+Virtual memory management uses paging, page tables, and cache lines to optimize process memory access speed.
+File systems organize storage devices into directories, inodes, and disk blocks for reading text document files.
+System calls allow user software programs to request operating system kernel services safely and efficiently.
