@@ -6,7 +6,7 @@ The engine processes text documents, normalizes tokens, constructs an **Inverted
 
 ---
 
-## 🌟 Core Architecture & Pipeline Flow
+ Core Architecture & Pipeline Flow
 
 ```
 +----------------+      +------------------+      +----------------+      +----------------+
@@ -23,7 +23,7 @@ The engine processes text documents, normalizes tokens, constructs an **Inverted
 
 ---
 
-## 🔍 How the Inverted Index Works
+ How the Inverted Index Works
 
 An **Inverted Index** maps words/terms to the specific document filenames where they appear (their posting list).
 
@@ -48,7 +48,7 @@ Binary Search relies on the **order property**. Before performing Binary Search,
 
 ---
 
-## 📊 Algorithmic Comparison: Linear vs Binary Search
+ Algorithmic Comparison: Linear vs Binary Search
 
 | Metric | Linear Search | Binary Search |
 | :--- | :--- | :--- |
@@ -60,7 +60,7 @@ Binary Search relies on the **order property**. Before performing Binary Search,
 
 ---
 
-## 📁 Repository Structure
+ Repository Structure
 
 ```
 search_engine/
@@ -97,7 +97,7 @@ search_engine/
 
 ---
 
-## 🛠️ Prerequisites & Build Instructions
+ Prerequisites & Build Instructions
 
 ### Requirements
 * **C++ Compiler**: GCC 6.3+ / Clang 10+ / MSVC 2019+
@@ -172,7 +172,7 @@ npm run dev
 
 ---
 
-## 🌐 API Endpoints
+ API Endpoints
 
 * `GET /api/health`: Returns server status and C++ binary path.
 * `GET /api/search?q=<term>&mode=both`: Runs C++ search engine for exact query. Mode options: `linear`, `binary`, `both`.
@@ -181,7 +181,7 @@ npm run dev
 
 ---
 
-## 🚢 Deployment Guide
+ Deployment Guide
 
 ### Option A: Standalone Docker Deployment
 A single container hosting both Node.js API and C++ binary:
@@ -195,7 +195,7 @@ A single container hosting both Node.js API and C++ binary:
 
 ---
 
-## 📌 Scope & Limitations
+ Scope & Limitations
 * Educational implementation focused on algorithm comparison clarity.
 * Exact term matching (token level).
 * Inverted index resides in memory during engine execution.
@@ -203,5 +203,5 @@ A single container hosting both Node.js API and C++ binary:
 
 ---
 
-## 📜 License
+ License
 MIT License. Open source for educational and comparative research purposes.
